@@ -1,0 +1,89 @@
+2012-10-25 22:20:40,226 WARN  crawl.Crawl - solrUrl is not set, indexing will be skipped...
+2012-10-25 22:20:40,606 INFO  crawl.Crawl - crawl started in: crawl
+2012-10-25 22:20:40,606 INFO  crawl.Crawl - rootUrlDir = urls
+2012-10-25 22:20:40,606 INFO  crawl.Crawl - threads = 10
+2012-10-25 22:20:40,606 INFO  crawl.Crawl - depth = 3
+2012-10-25 22:20:40,606 INFO  crawl.Crawl - solrUrl=null
+2012-10-25 22:20:40,606 INFO  crawl.Crawl - topN = 5
+2012-10-25 22:20:40,637 INFO  crawl.Injector - Injector: starting at 2012-10-25 22:20:40
+2012-10-25 22:20:40,637 INFO  crawl.Injector - Injector: crawlDb: crawl/crawldb
+2012-10-25 22:20:40,637 INFO  crawl.Injector - Injector: urlDir: urls
+2012-10-25 22:20:40,660 INFO  crawl.Injector - Injector: Converting injected urls to crawl db entries.
+2012-10-25 22:20:40,787 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2012-10-25 22:20:40,855 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2012-10-25 22:20:40,858 ERROR security.UserGroupInformation - PriviledgedActionException as:mahajan cause:org.apache.hadoop.mapred.InvalidInputException: Input path does not exist: file:/home/mahajan/apache-nutch-1.5.1/src/urls
+2012-10-25 22:22:49,353 WARN  crawl.Crawl - solrUrl is not set, indexing will be skipped...
+2012-10-25 22:22:49,459 INFO  crawl.Crawl - crawl started in: crawl
+2012-10-25 22:22:49,459 INFO  crawl.Crawl - rootUrlDir = urls
+2012-10-25 22:22:49,459 INFO  crawl.Crawl - threads = 10
+2012-10-25 22:22:49,459 INFO  crawl.Crawl - depth = 3
+2012-10-25 22:22:49,459 INFO  crawl.Crawl - solrUrl=null
+2012-10-25 22:22:49,459 INFO  crawl.Crawl - topN = 5
+2012-10-25 22:22:49,472 INFO  crawl.Injector - Injector: starting at 2012-10-25 22:22:49
+2012-10-25 22:22:49,472 INFO  crawl.Injector - Injector: crawlDb: crawl/crawldb
+2012-10-25 22:22:49,472 INFO  crawl.Injector - Injector: urlDir: urls
+2012-10-25 22:22:49,511 INFO  crawl.Injector - Injector: Converting injected urls to crawl db entries.
+2012-10-25 22:22:49,548 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2012-10-25 22:22:49,576 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2012-10-25 22:22:49,580 ERROR security.UserGroupInformation - PriviledgedActionException as:mahajan cause:org.apache.hadoop.mapred.InvalidInputException: Input path does not exist: file:/home/mahajan/apache-nutch-1.5.1/urls
+2012-10-25 22:23:36,764 WARN  crawl.Crawl - solrUrl is not set, indexing will be skipped...
+2012-10-25 22:23:36,904 INFO  crawl.Crawl - crawl started in: crawl
+2012-10-25 22:23:36,907 INFO  crawl.Crawl - rootUrlDir = urls
+2012-10-25 22:23:36,907 INFO  crawl.Crawl - threads = 10
+2012-10-25 22:23:36,907 INFO  crawl.Crawl - depth = 3
+2012-10-25 22:23:36,907 INFO  crawl.Crawl - solrUrl=null
+2012-10-25 22:23:36,907 INFO  crawl.Crawl - topN = 5
+2012-10-25 22:23:36,920 INFO  crawl.Injector - Injector: starting at 2012-10-25 22:23:36
+2012-10-25 22:23:36,920 INFO  crawl.Injector - Injector: crawlDb: crawl/crawldb
+2012-10-25 22:23:36,920 INFO  crawl.Injector - Injector: urlDir: urls
+2012-10-25 22:23:36,950 INFO  crawl.Injector - Injector: Converting injected urls to crawl db entries.
+2012-10-25 22:23:36,998 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2012-10-25 22:23:37,028 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2012-10-25 22:23:37,502 INFO  plugin.PluginRepository - Plugins: looking in: /home/mahajan/apache-nutch-1.5.1/plugins
+2012-10-25 22:23:37,590 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2012-10-25 22:23:37,590 INFO  plugin.PluginRepository - Registered Plugins:
+2012-10-25 22:23:37,590 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2012-10-25 22:23:37,590 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2012-10-25 22:23:37,590 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2012-10-25 22:23:37,590 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2012-10-25 22:23:37,590 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2012-10-25 22:23:37,590 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2012-10-25 22:23:37,590 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2012-10-25 22:23:37,590 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2012-10-25 22:23:37,591 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2012-10-25 22:23:37,591 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2012-10-25 22:23:37,591 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2012-10-25 22:23:37,591 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2012-10-25 22:23:37,591 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2012-10-25 22:23:37,591 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2012-10-25 22:23:37,591 INFO  plugin.PluginRepository - Registered Extension-Points:
+2012-10-25 22:23:37,591 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2012-10-25 22:23:37,591 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2012-10-25 22:23:37,591 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2012-10-25 22:23:37,591 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2012-10-25 22:23:37,591 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2012-10-25 22:23:37,591 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2012-10-25 22:23:37,591 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2012-10-25 22:23:37,591 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2012-10-25 22:23:37,639 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2012-10-25 22:23:44,353 INFO  crawl.Injector - Injector: Merging injected urls into crawl db.
+2012-10-25 22:23:51,463 INFO  crawl.Injector - Injector: finished at 2012-10-25 22:23:51, elapsed: 00:00:14
+2012-10-25 22:23:51,467 INFO  crawl.Generator - Generator: starting at 2012-10-25 22:23:51
+2012-10-25 22:23:51,467 INFO  crawl.Generator - Generator: Selecting best-scoring urls due for fetch.
+2012-10-25 22:23:51,467 INFO  crawl.Generator - Generator: filtering: true
+2012-10-25 22:23:51,467 INFO  crawl.Generator - Generator: normalizing: true
+2012-10-25 22:23:51,467 INFO  crawl.Generator - Generator: topN: 5
+2012-10-25 22:23:51,468 INFO  crawl.Generator - Generator: jobtracker is 'local', generating exactly one partition.
+2012-10-25 22:23:51,563 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2012-10-25 22:23:51,563 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2012-10-25 22:23:51,563 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2012-10-25 22:23:51,571 INFO  regex.RegexURLNormalizer - can't find rules for scope 'partition', using default
+2012-10-25 22:23:54,537 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2012-10-25 22:23:54,537 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2012-10-25 22:23:54,537 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2012-10-25 22:23:54,538 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2012-10-25 22:23:58,527 INFO  crawl.Generator - Generator: Partitioning selected urls for politeness.
+2012-10-25 22:23:59,527 INFO  crawl.Generator - Generator: segment: crawl/segments/20121025222359
+2012-10-25 22:23:59,624 INFO  regex.RegexURLNormalizer - can't find rules for scope 'partition', using default
+2012-10-25 22:24:06,593 INFO  crawl.Generator - Generator: finished at 2012-10-25 22:24:06, elapsed: 00:00:15
+2012-10-25 22:24:06,593 ERROR fetcher.Fetcher - Fetcher: No agents listed in 'http.agent.name' property.

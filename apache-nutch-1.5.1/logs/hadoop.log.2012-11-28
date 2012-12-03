@@ -1,0 +1,38 @@
+2012-11-28 13:29:15,090 INFO  crawl.CrawlDbReader - CrawlDb statistics start: crawl-tinysite/db
+2012-11-28 13:29:16,112 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2012-11-28 13:29:16,137 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2012-11-28 13:29:16,259 ERROR security.UserGroupInformation - PriviledgedActionException as:mahajan cause:org.apache.hadoop.mapred.InvalidInputException: Input path does not exist: file:/home/mahajan/apache-nutch-1.5.1/crawl-tinysite/db/current
+2012-11-28 13:31:06,932 INFO  crawl.CrawlDbReader - CrawlDb statistics start: url/db
+2012-11-28 13:31:07,162 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2012-11-28 13:31:07,164 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2012-11-28 13:31:07,185 ERROR security.UserGroupInformation - PriviledgedActionException as:mahajan cause:org.apache.hadoop.mapred.InvalidInputException: Input path does not exist: file:/home/mahajan/apache-nutch-1.5.1/url/db/current
+2012-11-28 13:36:09,112 INFO  crawl.CrawlDbReader - CrawlDb statistics start: url/crawldb
+2012-11-28 13:36:09,351 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2012-11-28 13:36:09,354 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2012-11-28 13:36:09,375 ERROR security.UserGroupInformation - PriviledgedActionException as:mahajan cause:org.apache.hadoop.mapred.InvalidInputException: Input path does not exist: file:/home/mahajan/apache-nutch-1.5.1/crawl/url/crawldb/current
+2012-11-28 13:37:15,841 INFO  crawl.CrawlDbReader - CrawlDb statistics start: crawl/crawldb
+2012-11-28 13:37:16,079 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2012-11-28 13:37:16,081 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2012-11-28 13:37:16,103 ERROR security.UserGroupInformation - PriviledgedActionException as:mahajan cause:org.apache.hadoop.mapred.InvalidInputException: Input path does not exist: file:/home/mahajan/apache-nutch-1.5.1/crawl/crawl/crawldb/current
+2012-11-28 13:37:28,017 INFO  crawl.CrawlDbReader - CrawlDb statistics start: crawldb
+2012-11-28 13:37:28,257 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2012-11-28 13:37:28,259 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2012-11-28 13:37:35,717 INFO  crawl.CrawlDbReader - Statistics for CrawlDb: crawldb
+2012-11-28 13:37:35,717 INFO  crawl.CrawlDbReader - TOTAL urls:	4085
+2012-11-28 13:37:35,718 INFO  crawl.CrawlDbReader - retry 0:	4055
+2012-11-28 13:37:35,718 INFO  crawl.CrawlDbReader - retry 1:	21
+2012-11-28 13:37:35,718 INFO  crawl.CrawlDbReader - retry 2:	9
+2012-11-28 13:37:35,718 INFO  crawl.CrawlDbReader - min score:	0.0
+2012-11-28 13:37:35,718 INFO  crawl.CrawlDbReader - avg score:	7.1089354E-4
+2012-11-28 13:37:35,718 INFO  crawl.CrawlDbReader - max score:	1.0
+2012-11-28 13:37:35,718 INFO  crawl.CrawlDbReader - status 1 (db_unfetched):	2661
+2012-11-28 13:37:35,718 INFO  crawl.CrawlDbReader - status 2 (db_fetched):	1175
+2012-11-28 13:37:35,718 INFO  crawl.CrawlDbReader - status 3 (db_gone):	18
+2012-11-28 13:37:35,718 INFO  crawl.CrawlDbReader - status 4 (db_redir_temp):	81
+2012-11-28 13:37:35,718 INFO  crawl.CrawlDbReader - status 5 (db_redir_perm):	150
+2012-11-28 13:37:35,719 INFO  crawl.CrawlDbReader - CrawlDb statistics: done
+2012-11-28 13:45:24,884 INFO  crawl.CrawlDbReader - CrawlDb dump: starting
+2012-11-28 13:45:24,885 INFO  crawl.CrawlDbReader - CrawlDb db: crawldb
+2012-11-28 13:45:25,107 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2012-11-28 13:45:25,109 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2012-11-28 13:45:32,296 INFO  crawl.CrawlDbReader - CrawlDb dump: done

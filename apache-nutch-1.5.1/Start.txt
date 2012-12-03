@@ -1,0 +1,10 @@
+
+
+export JAVA_HOME=/usr/lib/jvm/java-1.6.0-openjdk
+
+~/apache-nutch-1.5.1/src/bin/nutch crawl urls -dir crawl -depth 3 -topN 5
+
+rm -rf ~/test/* ; cd ~/apache-nutch-1.5.1/crawl;  ../src/bin/nutch readdb crawldb -dump ~/test/`date +%d%b%y`
+
+cat ~/test/DUMP/`date +%d%b%y`/part-00000 |grep Version |grep http |awk '{print $1}' > `date +%d%b%y`.dat
+

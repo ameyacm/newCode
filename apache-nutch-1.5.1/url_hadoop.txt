@@ -1,0 +1,4 @@
+http://vimeo.com/3584536
+http://hortonworks.com/videos/
+http://www.mapr.com/resources/videos
+http://www.cloudera.com/content/cloudera/en/resources/library.html?category=cloudera-resources%3Aconferences-and-events%2Fhadoop-world&q=

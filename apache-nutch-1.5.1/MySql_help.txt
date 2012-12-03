@@ -1,0 +1,18 @@
+mysql -u <user name> -p 
+
+use databasename
+
+use mysql;
+
+grant usage on *.* to bob@localhost identified by 'passwd';
+
+flush privileges; 
+
+
+
+grant all privileges on databasename.* to username@localhost;
+ flush privileges; 
+
+
+LOAD DATA INFILE '/tmp/filename.csv' replace INTO TABLE [table name] FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' (field1,field2,field3);
+

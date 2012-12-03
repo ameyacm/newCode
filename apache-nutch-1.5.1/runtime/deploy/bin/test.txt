@@ -1,0 +1,329 @@
+/home/mahajan/apache-nutch-1.5.1/lib/native/Linux-amd64-64
+solrUrl is not set, indexing will be skipped...
+crawl started in: crawl
+rootUrlDir = urls
+threads = 10
+depth = 3
+solrUrl=null
+topN = 5
+Injector: starting at 2012-11-10 17:42:39
+Injector: crawlDb: crawl/crawldb
+Injector: urlDir: urls
+Injector: Converting injected urls to crawl db entries.
+Injector: Merging injected urls into crawl db.
+Injector: finished at 2012-11-10 17:42:53, elapsed: 00:00:14
+Generator: starting at 2012-11-10 17:42:53
+Generator: Selecting best-scoring urls due for fetch.
+Generator: filtering: true
+Generator: normalizing: true
+Generator: topN: 5
+Generator: jobtracker is 'local', generating exactly one partition.
+Generator: Partitioning selected urls for politeness.
+Generator: segment: crawl/segments/20121110174301
+Generator: finished at 2012-11-10 17:43:08, elapsed: 00:00:15
+Fetcher: Your 'http.agent.name' value should be listed first in 'http.robots.agents' property.
+Fetcher: starting at 2012-11-10 17:43:08
+Fetcher: segment: crawl/segments/20121110174301
+Using queue mode : byHost
+Fetcher: threads: 10
+Fetcher: time-out divisor: 2
+QueueFeeder finished: total 1 records + hit by time limit :0
+Using queue mode : byHost
+Using queue mode : byHost
+fetching http://nutch.apache.org/
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Fetcher: throughput threshold: -1
+Fetcher: throughput threshold retries: 5
+-finishing thread FetcherThread, activeThreads=7
+-finishing thread FetcherThread, activeThreads=7
+-finishing thread FetcherThread, activeThreads=6
+-finishing thread FetcherThread, activeThreads=5
+-finishing thread FetcherThread, activeThreads=4
+-finishing thread FetcherThread, activeThreads=3
+-finishing thread FetcherThread, activeThreads=2
+-finishing thread FetcherThread, activeThreads=2
+-finishing thread FetcherThread, activeThreads=1
+-finishing thread FetcherThread, activeThreads=0
+-activeThreads=0, spinWaiting=0, fetchQueues.totalSize=0
+-activeThreads=0
+Fetcher: finished at 2012-11-10 17:43:15, elapsed: 00:00:07
+ParseSegment: starting at 2012-11-10 17:43:15
+ParseSegment: segment: crawl/segments/20121110174301
+Parsed (10ms):http://nutch.apache.org/
+ParseSegment: finished at 2012-11-10 17:43:22, elapsed: 00:00:07
+CrawlDb update: starting at 2012-11-10 17:43:22
+CrawlDb update: db: crawl/crawldb
+CrawlDb update: segments: [crawl/segments/20121110174301]
+CrawlDb update: additions allowed: true
+CrawlDb update: URL normalizing: true
+CrawlDb update: URL filtering: true
+CrawlDb update: 404 purging: false
+CrawlDb update: Merging segment data into db.
+CrawlDb update: finished at 2012-11-10 17:43:35, elapsed: 00:00:13
+Generator: starting at 2012-11-10 17:43:35
+Generator: Selecting best-scoring urls due for fetch.
+Generator: filtering: true
+Generator: normalizing: true
+Generator: topN: 5
+Generator: jobtracker is 'local', generating exactly one partition.
+Generator: Partitioning selected urls for politeness.
+Generator: segment: crawl/segments/20121110174343
+Generator: finished at 2012-11-10 17:43:50, elapsed: 00:00:15
+Fetcher: Your 'http.agent.name' value should be listed first in 'http.robots.agents' property.
+Fetcher: starting at 2012-11-10 17:43:50
+Fetcher: segment: crawl/segments/20121110174343
+Using queue mode : byHost
+Fetcher: threads: 10
+Fetcher: time-out divisor: 2
+QueueFeeder finished: total 5 records + hit by time limit :0
+Using queue mode : byHost
+fetching http://nutch.apache.org/wiki.html
+Using queue mode : byHost
+Using queue mode : byHost
+fetching http://www.apache.org/
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+fetching http://gora.apache.org/
+Using queue mode : byHost
+Using queue mode : byHost
+Fetcher: throughput threshold: -1
+Fetcher: throughput threshold retries: 5
+-activeThreads=10, spinWaiting=9, fetchQueues.totalSize=2
+* queue: http://nutch.apache.org
+  maxThreads    = 1
+  inProgress    = 1
+  crawlDelay    = 5000
+  minCrawlDelay = 0
+  nextFetchTime = 1352598230970
+  now           = 1352598231988
+  0. http://nutch.apache.org/mailing_lists.html
+* queue: http://www.apache.org
+  maxThreads    = 1
+  inProgress    = 0
+  crawlDelay    = 4000
+  minCrawlDelay = 0
+  nextFetchTime = 1352598235960
+  now           = 1352598231988
+  0. http://www.apache.org/dyn/closer.cgi/nutch/
+-activeThreads=10, spinWaiting=10, fetchQueues.totalSize=2
+* queue: http://nutch.apache.org
+  maxThreads    = 1
+  inProgress    = 0
+  crawlDelay    = 5000
+  minCrawlDelay = 0
+  nextFetchTime = 1352598237364
+  now           = 1352598232989
+  0. http://nutch.apache.org/mailing_lists.html
+* queue: http://www.apache.org
+  maxThreads    = 1
+  inProgress    = 0
+  crawlDelay    = 4000
+  minCrawlDelay = 0
+  nextFetchTime = 1352598235960
+  now           = 1352598232990
+  0. http://www.apache.org/dyn/closer.cgi/nutch/
+-activeThreads=10, spinWaiting=10, fetchQueues.totalSize=2
+* queue: http://nutch.apache.org
+  maxThreads    = 1
+  inProgress    = 0
+  crawlDelay    = 5000
+  minCrawlDelay = 0
+  nextFetchTime = 1352598237364
+  now           = 1352598233991
+  0. http://nutch.apache.org/mailing_lists.html
+* queue: http://www.apache.org
+  maxThreads    = 1
+  inProgress    = 0
+  crawlDelay    = 4000
+  minCrawlDelay = 0
+  nextFetchTime = 1352598235960
+  now           = 1352598233992
+  0. http://www.apache.org/dyn/closer.cgi/nutch/
+-activeThreads=10, spinWaiting=10, fetchQueues.totalSize=2
+* queue: http://nutch.apache.org
+  maxThreads    = 1
+  inProgress    = 0
+  crawlDelay    = 5000
+  minCrawlDelay = 0
+  nextFetchTime = 1352598237364
+  now           = 1352598234993
+  0. http://nutch.apache.org/mailing_lists.html
+* queue: http://www.apache.org
+  maxThreads    = 1
+  inProgress    = 0
+  crawlDelay    = 4000
+  minCrawlDelay = 0
+  nextFetchTime = 1352598235960
+  now           = 1352598234993
+  0. http://www.apache.org/dyn/closer.cgi/nutch/
+fetching http://www.apache.org/dyn/closer.cgi/nutch/
+-activeThreads=10, spinWaiting=9, fetchQueues.totalSize=1
+* queue: http://nutch.apache.org
+  maxThreads    = 1
+  inProgress    = 0
+  crawlDelay    = 5000
+  minCrawlDelay = 0
+  nextFetchTime = 1352598237364
+  now           = 1352598235994
+  0. http://nutch.apache.org/mailing_lists.html
+-activeThreads=10, spinWaiting=10, fetchQueues.totalSize=1
+* queue: http://nutch.apache.org
+  maxThreads    = 1
+  inProgress    = 0
+  crawlDelay    = 5000
+  minCrawlDelay = 0
+  nextFetchTime = 1352598237364
+  now           = 1352598236995
+  0. http://nutch.apache.org/mailing_lists.html
+fetching http://nutch.apache.org/mailing_lists.html
+-finishing thread FetcherThread, activeThreads=9
+-finishing thread FetcherThread, activeThreads=8
+-finishing thread FetcherThread, activeThreads=6
+-finishing thread FetcherThread, activeThreads=7
+-finishing thread FetcherThread, activeThreads=4
+-finishing thread FetcherThread, activeThreads=5
+-finishing thread FetcherThread, activeThreads=3
+-finishing thread FetcherThread, activeThreads=2
+-finishing thread FetcherThread, activeThreads=1
+-finishing thread FetcherThread, activeThreads=0
+-activeThreads=0, spinWaiting=0, fetchQueues.totalSize=0
+-activeThreads=0
+Fetcher: finished at 2012-11-10 17:44:03, elapsed: 00:00:13
+ParseSegment: starting at 2012-11-10 17:44:03
+ParseSegment: segment: crawl/segments/20121110174343
+Parsed (4ms):http://gora.apache.org/
+Parsed (2ms):http://nutch.apache.org/mailing_lists.html
+Parsed (5ms):http://nutch.apache.org/wiki.html
+Parsed (4ms):http://www.apache.org/
+Parsed (4ms):http://www.apache.org/dyn/closer.cgi/nutch/
+ParseSegment: finished at 2012-11-10 17:44:10, elapsed: 00:00:07
+CrawlDb update: starting at 2012-11-10 17:44:10
+CrawlDb update: db: crawl/crawldb
+CrawlDb update: segments: [crawl/segments/20121110174343]
+CrawlDb update: additions allowed: true
+CrawlDb update: URL normalizing: true
+CrawlDb update: URL filtering: true
+CrawlDb update: 404 purging: false
+CrawlDb update: Merging segment data into db.
+CrawlDb update: finished at 2012-11-10 17:44:24, elapsed: 00:00:13
+Generator: starting at 2012-11-10 17:44:24
+Generator: Selecting best-scoring urls due for fetch.
+Generator: filtering: true
+Generator: normalizing: true
+Generator: topN: 5
+Generator: jobtracker is 'local', generating exactly one partition.
+Generator: Partitioning selected urls for politeness.
+Generator: segment: crawl/segments/20121110174432
+Generator: finished at 2012-11-10 17:44:39, elapsed: 00:00:15
+Fetcher: Your 'http.agent.name' value should be listed first in 'http.robots.agents' property.
+Fetcher: starting at 2012-11-10 17:44:39
+Fetcher: segment: crawl/segments/20121110174432
+Using queue mode : byHost
+Fetcher: threads: 10
+Fetcher: time-out divisor: 2
+QueueFeeder finished: total 5 records + hit by time limit :0
+Using queue mode : byHost
+fetching http://hadoop.apache.org/
+Using queue mode : byHost
+Using queue mode : byHost
+fetching http://nutch.apache.org/index.html
+Using queue mode : byHost
+fetching http://lucene.apache.org/solr/
+Using queue mode : byHost
+Using queue mode : byHost
+fetching http://www.apache.org/licenses/
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Using queue mode : byHost
+Fetcher: throughput threshold: -1
+Fetcher: throughput threshold retries: 5
+-activeThreads=10, spinWaiting=9, fetchQueues.totalSize=1
+* queue: http://www.apache.org
+  maxThreads    = 1
+  inProgress    = 0
+  crawlDelay    = 4000
+  minCrawlDelay = 0
+  nextFetchTime = 1352598283476
+  now           = 1352598280237
+  0. http://www.apache.org/foundation/sponsorship.html
+-activeThreads=10, spinWaiting=9, fetchQueues.totalSize=1
+* queue: http://www.apache.org
+  maxThreads    = 1
+  inProgress    = 0
+  crawlDelay    = 4000
+  minCrawlDelay = 0
+  nextFetchTime = 1352598283476
+  now           = 1352598281238
+  0. http://www.apache.org/foundation/sponsorship.html
+-activeThreads=10, spinWaiting=9, fetchQueues.totalSize=1
+* queue: http://www.apache.org
+  maxThreads    = 1
+  inProgress    = 0
+  crawlDelay    = 4000
+  minCrawlDelay = 0
+  nextFetchTime = 1352598283476
+  now           = 1352598282239
+  0. http://www.apache.org/foundation/sponsorship.html
+-activeThreads=10, spinWaiting=9, fetchQueues.totalSize=1
+* queue: http://www.apache.org
+  maxThreads    = 1
+  inProgress    = 0
+  crawlDelay    = 4000
+  minCrawlDelay = 0
+  nextFetchTime = 1352598283476
+  now           = 1352598283240
+  0. http://www.apache.org/foundation/sponsorship.html
+fetching http://www.apache.org/foundation/sponsorship.html
+-finishing thread FetcherThread, activeThreads=9
+-finishing thread FetcherThread, activeThreads=8
+-finishing thread FetcherThread, activeThreads=6
+-finishing thread FetcherThread, activeThreads=6
+-finishing thread FetcherThread, activeThreads=3
+-finishing thread FetcherThread, activeThreads=5
+-finishing thread FetcherThread, activeThreads=4
+-finishing thread FetcherThread, activeThreads=2
+-finishing thread FetcherThread, activeThreads=1
+-activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0
+-activeThreads=1, spinWaiting=0, fetchQueues.totalSize=0
+-finishing thread FetcherThread, activeThreads=0
+-activeThreads=0, spinWaiting=0, fetchQueues.totalSize=0
+-activeThreads=0
+Fetcher: finished at 2012-11-10 17:44:52, elapsed: 00:00:13
+ParseSegment: starting at 2012-11-10 17:44:52
+ParseSegment: segment: crawl/segments/20121110174432
+Parsed (2ms):http://hadoop.apache.org/
+Parsed (5ms):http://lucene.apache.org/solr/
+Parsed (4ms):http://nutch.apache.org/index.html
+Parsed (3ms):http://www.apache.org/foundation/sponsorship.html
+Parsed (3ms):http://www.apache.org/licenses/
+ParseSegment: finished at 2012-11-10 17:44:59, elapsed: 00:00:07
+CrawlDb update: starting at 2012-11-10 17:44:59
+CrawlDb update: db: crawl/crawldb
+CrawlDb update: segments: [crawl/segments/20121110174432]
+CrawlDb update: additions allowed: true
+CrawlDb update: URL normalizing: true
+CrawlDb update: URL filtering: true
+CrawlDb update: 404 purging: false
+CrawlDb update: Merging segment data into db.
+CrawlDb update: finished at 2012-11-10 17:45:12, elapsed: 00:00:13
+LinkDb: starting at 2012-11-10 17:45:12
+LinkDb: linkdb: crawl/linkdb
+LinkDb: URL normalize: true
+LinkDb: URL filter: true
+LinkDb: internal links will be ignored.
+LinkDb: adding segment: file:/home/mahajan/apache-nutch-1.5.1/src/bin/crawl/segments/20121110174343
+LinkDb: adding segment: file:/home/mahajan/apache-nutch-1.5.1/src/bin/crawl/segments/20121110174432
+LinkDb: adding segment: file:/home/mahajan/apache-nutch-1.5.1/src/bin/crawl/segments/20121110174301
+LinkDb: finished at 2012-11-10 17:45:25, elapsed: 00:00:13
+crawl finished: crawl

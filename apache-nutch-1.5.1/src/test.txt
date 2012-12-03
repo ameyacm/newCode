@@ -1,0 +1,2 @@
+/home/mahajan/apache-nutch-1.5.1/lib/native/Linux-amd64-64
+/home/mahajan/apache-nutch-1.5.1/lib/native/Linux-amd64-64
